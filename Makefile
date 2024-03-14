@@ -1,6 +1,6 @@
-SYSTEM     = x86-64_linux
+SYSTEM     = x64_win64
 LIBFORMAT  = static_pic
-CPLEXDIR=/opt/ibm/ILOG/CPLEX_Studio1210/cplex
+CPLEXDIR   = C:/Program Files/IBM/ILOG/CPLEX_Studio2211
 
 CPLEXBINDIR   = $(CPLEXDIR)/bin/$(BINDIST)
 CPLEXLIBDIR   = $(CPLEXDIR)/lib/$(SYSTEM)/$(LIBFORMAT)
